@@ -1,5 +1,3 @@
-CREATE DATABASE IF NOT EXISTS usuarios_db;
-
 USE usuarios_db;
 
 CREATE TABLE IF NOT EXISTS users (
