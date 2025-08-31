@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS users (
     last_access DATETIME
 );
 
-LOAD DATA INFILE '/docker-entrypoint-initdb.d/usuarios.csv'
+LOAD DATA INFILE '/home/ec2-user/db-aws/usuarios.csv'
 INTO TABLE users
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
